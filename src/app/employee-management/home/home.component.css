@@ -1,0 +1,39 @@
+/* Style for the website container */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the product listings */
+  #productList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style for the add to cart button */
+  .addToCartButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  .addToCartButton:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the cart item count */
+  #cartItemCount {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
